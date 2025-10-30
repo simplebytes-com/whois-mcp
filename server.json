@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
   "name": "io.github.simplebytes-com/whois-mcp",
-  "description": "WHOIS MCP Server for domain information lookup using IANA WHOIS service",
+  "description": "WHOIS domain lookup using native WHOIS protocol. Supports 877+ TLDs with parsing for 169 ccTLDs.",
   "repository": {
     "url": "git+https://github.com/simplebytes-com/whois-mcp",
     "source": "github"
