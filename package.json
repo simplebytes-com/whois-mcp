@@ -1,7 +1,7 @@
 {
   "name": "whois-mcp",
   "version": "1.0.0",
-  "description": "Simple WHOIS MCP Server for domain information lookup using IANA WHOIS service",
+  "description": "WHOIS MCP Server - Domain registration lookup using proper WHOIS protocol (port 43). Supports 877+ TLDs with parsing for 169 ccTLDs.",
   "mcpName": "io.github.simplebytes-com/whois-mcp",
   "main": "build/index.js",
   "type": "module",
@@ -21,11 +21,18 @@
   "keywords": [
     "mcp",
     "model-context-protocol",
-    "domain",
     "whois",
-    "dns",
+    "whois-protocol",
+    "whois-lookup",
+    "domain",
     "domain-lookup",
-    "iana"
+    "domain-registration",
+    "tld",
+    "cctld",
+    "whois-parser",
+    "port-43",
+    "dns",
+    "registrar"
   ],
   "author": "SimpleBytes",
   "license": "MIT",
