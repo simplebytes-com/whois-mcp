@@ -1,0 +1,47 @@
+{
+  "name": "whois-mcp",
+  "version": "1.0.0",
+  "description": "Simple WHOIS MCP Server for domain information lookup using IANA WHOIS service",
+  "mcpName": "io.github.simplebytes-com/whois-mcp",
+  "main": "build/index.js",
+  "type": "module",
+  "bin": {
+    "whois-mcp": "./build/index.js"
+  },
+  "files": [
+    "build/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepare": "npm run build",
+    "start": "node build/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "domain",
+    "whois",
+    "dns",
+    "domain-lookup",
+    "iana"
+  ],
+  "author": "SimpleBytes",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplebytes-com/whois-mcp.git"
+  },
+  "homepage": "https://github.com/simplebytes-com/whois-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/simplebytes-com/whois-mcp/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}

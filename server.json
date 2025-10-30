@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "io.github.simplebytes-com/whois-mcp",
+  "description": "WHOIS MCP Server for domain information lookup using IANA WHOIS service",
+  "repository": {
+    "url": "git+https://github.com/simplebytes-com/whois-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "whois-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
